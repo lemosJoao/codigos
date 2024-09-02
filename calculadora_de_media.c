@@ -32,10 +32,7 @@ double calcularMedia(double *vetor, int n) {
   return soma / n;
 }
 
-void mostrarMedia(double media) {
-  
-  printf("A media eh: %lf\n\n", media); 
-}
+void mostrarMedia(double media) { printf("A media eh: %lf\n\n", media); }
 
 int main(int argc, char **argv) {
 
